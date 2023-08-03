@@ -64,6 +64,14 @@ Feel free to explore the code and build upon it for your custom requirements. Ha
 $ yarn install
 ```
 
+
+## Docker (installing database container)
+
+```bash
+$ yarn db:dev:up or npm run db:dev:up
+```
+
+
 ## Running the app
 
 ```bash
