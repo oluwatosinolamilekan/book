@@ -6,7 +6,7 @@ import { BookRepository } from './book.repository';
 export class BookService {
   constructor(private readonly bookRepository: BookRepository) {}
 
-  private readonly books: Book[] = [
+  public readonly books: Book[] = [
     {
       id: 1,
       title: 'Book 1',
@@ -58,5 +58,9 @@ export class BookService {
     );
 
     return userPurchaseBooks;
+  }
+
+  test() {
+    return 'testing...';
   }
 }
